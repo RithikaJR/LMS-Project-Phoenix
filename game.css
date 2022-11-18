@@ -1,0 +1,66 @@
+
+	html{
+        background-color: darkslategray;
+        font-family: cursive;
+    }
+    
+    h1 {
+		color: white;
+		font-size: 45px;
+        font-family: cursive;
+	}
+
+	/* 3*3 Grid */
+	#box1, #box2, #box3, #box4, #box5,
+	#box6, #box7, #box8, #box9 {
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 3px solid white;
+		border-radius: 15px;
+		font-size: 40px;
+		text-align: center;
+        background-color:darkslategray;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+	}
+
+	/* Reset Button */
+	#resetButton {
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 2px solid white;
+		margin: auto;
+		border-radius: 10px;
+		font-family:cursive;
+
+		background-color: darkslategray;
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	/* Player turn space */
+	#displayStatus {
+		font-family: cursive;
+
+		color: white;
+		font-size: 20px;
+	}
+
+	/* Main Container */
+	#container {
+		text-align: center;
+
+	}
+
+	/* Game instructiontructiontruction Text */
+	#instruction {
+		font-family:cursive;
+		font-style: italic;	
+		color: white;
+		font-size: 17px;
+	}
+
